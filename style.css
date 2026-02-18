@@ -857,4 +857,27 @@ body::after {
     .trust__logo-slot {
         font-size: clamp(.75rem, 3vw, 1rem);
     }
+
+    /* Mobile Interaction Enhancements */
+    .nav {
+        padding: 2rem;
+    }
+
+    .hero__headline {
+        font-size: 12vw !important;
+        /* Force smaller size on mobile */
+    }
+
+    .video-modal__close {
+        top: 20px;
+        right: 20px;
+        font-size: 2rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        text-align: center;
+        backdrop-filter: blur(4px);
+    }
 }
